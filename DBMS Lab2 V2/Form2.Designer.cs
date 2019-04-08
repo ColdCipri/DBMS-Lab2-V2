@@ -1,6 +1,7 @@
-﻿namespace DBMS_Lab2_V2
+﻿
+namespace DBMS_Lab2_V2
 {
-    partial class Form1
+    partial class Form2
     {
         /// <summary>
         /// Required designer variable.
@@ -78,11 +79,11 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(720, 359);
+            this.label4.Location = new System.Drawing.Point(706, 359);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(177, 25);
+            this.label4.Size = new System.Drawing.Size(199, 25);
             this.label4.TabIndex = 16;
-            this.label4.Text = "Service_TicketID";
+            this.label4.Text = "Year Of Fabrication";
             // 
             // textBox4
             // 
@@ -96,11 +97,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(746, 244);
+            this.label3.Location = new System.Drawing.Point(766, 243);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(99, 25);
+            this.label3.Size = new System.Drawing.Size(64, 25);
             this.label3.TabIndex = 14;
-            this.label3.Text = "Address:";
+            this.label3.Text = "Color";
             // 
             // label2
             // 
@@ -108,19 +109,19 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(766, 133);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(75, 25);
+            this.label2.Size = new System.Drawing.Size(71, 25);
             this.label2.TabIndex = 13;
-            this.label2.Text = "Name:";
+            this.label2.Text = "Model";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(746, 22);
+            this.label1.Location = new System.Drawing.Point(732, 23);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(113, 25);
+            this.label1.Size = new System.Drawing.Size(132, 25);
             this.label1.TabIndex = 12;
-            this.label1.Text = "ServiceID:";
+            this.label1.Text = "Manufacture";
             // 
             // textBox3
             // 
@@ -148,7 +149,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(703, 469);
+            this.button2.Location = new System.Drawing.Point(711, 469);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(114, 57);
             this.button2.TabIndex = 17;
@@ -166,7 +167,7 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // Form1
+            // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -184,10 +185,10 @@
             this.Controls.Add(this.GridSecond);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.GridFirst);
-            this.Name = "Form1";
-            this.Text = "Form1";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Name = "Form2";
+            this.Text = "Form2";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form2_FormClosing);
+            this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.GridFirst)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.GridSecond)).EndInit();
             this.ResumeLayout(false);
