@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBMS Lab2 V2", "DBMS Lab2 V2\DBMS Lab2 V2.csproj", "{A467B2A0-9A75-437F-AD68-D8F920BFEDE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A467B2A0-9A75-437F-AD68-D8F920BFEDE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A467B2A0-9A75-437F-AD68-D8F920BFEDE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A467B2A0-9A75-437F-AD68-D8F920BFEDE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A467B2A0-9A75-437F-AD68-D8F920BFEDE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E06FD5E1-54E6-47D4-ADC2-B25ED18C9BFC}
+	EndGlobalSection
+EndGlobal
